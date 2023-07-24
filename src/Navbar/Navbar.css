@@ -1,0 +1,55 @@
+.nav-main-bar {
+   display: flex;
+   align-items: center;
+   /* justify-content: space-evenly; */
+    background-color: turquoise;
+    height: 100px;
+  }
+  
+  .nav-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+   
+  }
+
+  .nav-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-family:Georgia, 'Times New Roman', Times, serif /* Replace with your desired font */
+  
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  .nav-button {
+    margin-left: 100px; /* Adjust margin as needed */
+    transition: transform 0.2s ease;
+  }
+
+  .nav-button:hover {
+    transform: scale(1.1);
+    background-color: rgb(51, 90, 90);
+  }
+
+  .content-below-navbar {
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    /* Add more styles as needed */
+  }
+  
+
+  .form-control{
+    width: 600px;
+  }
